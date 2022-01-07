@@ -44,7 +44,7 @@ $ npm install -g covid-statistics
 $ yarn global add covid-statistics
 ```
 
-<img src="https://imgur.com/QQCADH2" width="600px" />
+<img src="https://i.imgur.com/YrUqE8E.gif" width="600px" />
 
 <br>
 
@@ -54,7 +54,7 @@ $ yarn global add covid-statistics
 $ npx covid-statistics
 ```
 
-<img src="https://i.imgur.com/6LRH6hs.gif" width="600px" />
+<img src="https://i.imgur.com/uTnvthU.gif" width="600px" />
 
 ## Usage
 
@@ -64,7 +64,7 @@ $ npx covid-statistics
 $ covid
 ```
 
-<img src="https://i.imgur.com/MVokK9r.gif" width="600px" />
+<img src="https://i.imgur.com/7NA9ttl.gif" width="600px" />
 
 <br>
 
@@ -74,7 +74,7 @@ $ covid
 $ covid -c [country name]
 ```
 
-<img src="https://i.imgur.com/7gIWtw7.gif" width="600px" />
+<img src="https://i.imgur.com/fZ0eVKe.gif" width="600px" />
 
 ## Technologies
 
