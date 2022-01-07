@@ -1,0 +1,61 @@
+{
+  "name": "covid-stats",
+  "description": "Coronavirus statistics in the command line from around the world.",
+  "version": "1.0.0",
+  "author": "Anish Prashun <anishprashun118@gmail.com>",
+  "bin": {
+    "corona": "./bin/run"
+  },
+  "bugs": "https://github.com/anishpras/covid-stats/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2",
+    "@types/cli-table": "^0.3.0",
+    "@types/numeral": "^0.0.26",
+    "chalk": "^3.0.0",
+    "cli-table": "^0.3.1",
+    "cli-ux": "^5.4.5",
+    "lodash": "^4.17.15",
+    "novelcovid": "3.0.0",
+    "numeral": "^2.0.6",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1",
+    "@types/node": "^10",
+    "eslint": "^5.13",
+    "eslint-config-oclif": "^3.1",
+    "eslint-config-oclif-typescript": "^0.1",
+    "ts-node": "^8",
+    "typescript": "^3.3"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/covid-stats",
+  "keywords": [
+    "coronavirus",
+    "coronavirus-cli",
+    "cli-corona",
+    "corona-cli",
+    "covid-19",
+    "covid",
+    "corona"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "corona"
+  },
+  "repository": "anishpras/covid-stats",
+  "scripts": {
+    "prepack": "rm -rf lib && tsc -b && oclif-dev readme",
+    "dev": "./bin/run"
+  },
+  "types": "lib/index.d.ts"
+}
