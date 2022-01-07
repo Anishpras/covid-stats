@@ -38,10 +38,10 @@ Track COVID-19 (2019 novel Coronavirus) statistics via the command line.
 
 ```bash
 # Using npm
-$ npm install -g covid-stats
+$ npm install -g covid-statistics
 
 # Using Yarn
-$ yarn global add covid-stats
+$ yarn global add covid-statistics
 ```
 
 <img src="https://i.imgur.com/74VtGlX.gif" width="600px" />
@@ -51,7 +51,7 @@ $ yarn global add covid-stats
 > Or run directly with npx (installs CLI on every run).
 
 ```bash
-$ npx covid-stats
+$ npx covid-statistics
 ```
 
 <img src="https://i.imgur.com/6LRH6hs.gif" width="600px" />
@@ -61,7 +61,7 @@ $ npx covid-stats
 > Run with the CLI interface
 
 ```bash
-$ corona
+$ covid
 ```
 
 <img src="https://i.imgur.com/MVokK9r.gif" width="600px" />
@@ -71,7 +71,7 @@ $ corona
 > Or run directly with the country flag
 
 ```bash
-$ corona -c [country name]
+$ covid -c [country name]
 ```
 
 <img src="https://i.imgur.com/7gIWtw7.gif" width="600px" />
