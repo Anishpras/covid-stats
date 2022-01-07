@@ -2,6 +2,7 @@ import { Command, flags } from "@oclif/command";
 import cli from "cli-ux";
 import _ from "lodash";
 import chalk from "chalk";
+import chalkAnimation from "chalk-animation";
 import data from "./utils/data";
 import table from "./utils/table";
 
@@ -17,6 +18,10 @@ class CliCorona extends Command {
   };
 
   async run() {
+    let anim = chalkAnimation.rainbow(`\nC O V I D - S T A T I S T I C S\n`);
+    await new Promise((res) => setTimeout(res, 1500));
+    anim.stop();
+    console.log("");
     const { flags } = this.parse(CliCorona);
     let covidData: { data: object } = { data: {} };
     if (flags.country) {
@@ -37,6 +42,9 @@ class CliCorona extends Command {
     } else {
       await table.draw(covidData);
     }
+    let anim2 = chalkAnimation.neon("\n Be Safe \n");
+    await new Promise((res) => setTimeout(res, 3500));
+    anim2.stop();
   }
 }
 
