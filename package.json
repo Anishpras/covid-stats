@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Anish Prashun <anishprashun118@gmail.com>",
   "bin": {
-    "corona": "./bin/run"
+    "covid": "./bin/run"
   },
   "bugs": "https://github.com/anishpras/covid-stats/issues",
   "dependencies": {
