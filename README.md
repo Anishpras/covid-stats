@@ -44,7 +44,7 @@ $ npm install -g covid-statistics
 $ yarn global add covid-statistics
 ```
 
-<img src="https://i.imgur.com/74VtGlX.gif" width="600px" />
+<img src="https://imgur.com/QQCADH2" width="600px" />
 
 <br>
 
