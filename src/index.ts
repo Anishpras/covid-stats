@@ -5,7 +5,7 @@ import chalk from "chalk";
 import chalkAnimation from "chalk-animation";
 import data from "./utils/data";
 import table from "./utils/table";
-
+import say from "say";
 class CliCorona extends Command {
   static description = "Coronavirus statistics by country.";
 
@@ -42,6 +42,7 @@ class CliCorona extends Command {
     } else {
       await table.draw(covidData);
     }
+    say.speak("Be Safe");
     let anim2 = chalkAnimation.neon("\n Be Safe \n");
     await new Promise((res) => setTimeout(res, 3500));
     anim2.stop();
