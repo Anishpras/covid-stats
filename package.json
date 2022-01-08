@@ -1,7 +1,7 @@
 {
   "name": "covid-statistics",
   "description": "Coronavirus statistics in the command line from around the world.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Anish Prashun <anishprashun118@gmail.com>",
   "bin": {
     "covid": "./bin/run"
